@@ -1,0 +1,31 @@
+{
+  "name": "pixelplay",
+  "version": "1.0.0",
+  "description": "Pixel game engine",
+  "scripts": {
+    "build:gulp": "gulp build",
+    "start:gulp": "gulp",
+    "browser-sync:gulp": "gulp browserSync",
+    "lint:ts": "tslint -c tslint.json -p tsconfig.json"
+  },
+  "author": "A. Muller",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^9.7.0",
+    "browser-sync": "^2.26.3",
+    "browserify": "^17.0.0",
+    "cssnano": "^4.1.10",
+    "event-stream": "^4.0.1",
+    "gulp": "^4.0.2",
+    "gulp-postcss": "^8.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "tsify": "^5.0.2",
+    "typescript": "^4.1.3",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {}
+}
